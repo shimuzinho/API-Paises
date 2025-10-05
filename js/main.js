@@ -9,3 +9,11 @@ if ('serviceWorker' in navigator) {
         }
     });
 }
+
+const createPais = (pais) => {
+    return `
+    <div>
+        <img src="${pais.flags.png}" alt="Bandeira do Brasil" />
+    </div>
+    `;
+}
