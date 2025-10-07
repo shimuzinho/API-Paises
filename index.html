@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="styles/styles.css"/>
     <title>Países</title>
   </head>
   <body>
+    <div>
+      <input id="search" />
+      <button onclick="searchPais()">Procurar País</button>
+      <button onclick="showAllPaises()">Todos</button>
+    </div>
     <div id="containerPaises"></div>
     <script src="js/main.js" defer></script>
   </body>

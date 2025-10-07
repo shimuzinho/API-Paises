@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+#containerPaises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerPais {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 22%;
+    margin: 20px 0;
+    transition: 0.5s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.containerPais:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.containerPaisUnico {
+    width: 90%;
+}
+
+.containerPaisUnico:hover {
+    transform: scale(1.03);
+}
+
+.imagemPais {
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nomePais {
+    margin: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.capitalPais {
+    margin: 5px 10px;
+}
