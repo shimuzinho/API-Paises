@@ -47,3 +47,24 @@
 .capitalPais {
     margin: 5px 10px;
 }
+
+@media screen and (max-width: 992px) {
+    .containerPais {
+        width: 30%;
+    }
+
+    .containerPaisUnico {
+        width: 90%;
+    }
+
+    .nomePais {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .containerPais {
+        width: 90%;
+    }
+
+}
